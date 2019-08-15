@@ -1,0 +1,106 @@
+<DOCKtype>
+<html>
+<head>
+<title> My Log in and registration page </title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"crossorigin="anonymous">
+<style>
+  
+</style>
+</head>
+<body>
+<!-- footer of the page-->
+<div class="wrapper">
+  <div id="mainmenu">
+  <div class="logoarea">
+  <a href=""><img alt="" src="images/HOUSE_03_03.png" style="width: 619px;height: 141px;margin: -54px 0px 0px 186px;"></a>
+  </div>
+    <div class="Innermainmenu">
+    <ul>
+      <li><a href="file:///E:/Photoshop%20project/Home%20page/Home.html"> Home</a></li>
+      <li><a href="file:///E:/Photoshop%20project/order%20form/order.html"> Services</a></li>
+      <li><a href="file:///E:/Photoshop%20project/Gallery%20page/Gallery.html"> Gallery</a></li>
+      <li><a href="file:///E:/Photoshop%20project/Contactpage/index.html"> contact us</a></li>
+      <li><a href="file:///E:/Photoshop%20project/About%20us%20page/About.html"> About us</a></li>
+    </ul>
+  </div>
+  </div>
+</div>  
+
+<div class="image"></div>
+      <footer id="footer" >
+              <div class="copy"> &copy; Copyright <font color="red">2019</font> Project</div>
+              <div class="followus">Follow us on :
+                <a href=""><img alt="" src="images/Twitter.png" style="width: 205px; height: 54px;"></a>
+                <a href=""><img alt="" src="images/instagram.png" style="width: 205px; height: 54px;"></a>
+                <a href=""><img alt="" src="images/facebook Icon.png" style="width: 205px; height: 54px;"></a>
+              </div>
+     </footer>
+
+        <div class="login-page">
+        <div class="form">
+         
+            <form class="register-form register" id="Register">
+                <input type="text" placeholder="Full name..." required/>
+                <input type="email" placeholder="Enter your user-email..."required/>
+                <div class="input-group" id="show_hide_password">
+                <input class="form-control" type="password" placeholder="password..."required/>
+                <div class="input-group-addon">
+                    <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                  </div>
+              </div>
+                <input type="number" placeholder="Mobile Number..." required/>
+                <input type="text" placeholder="Gender..." required/>
+                <input type="Date" placeholder="Date of birth..." required/>
+                <input type="text" placeholder="Nationality..." />
+                <input type="text" placeholder="Home language..." required/>
+                <p class="message"><b> Area Detail</b> </p>
+                <input type="text" placeholder="Occupation..." required/>
+                <input type="text" placeholder="Work area..." required/>
+                <input type="text" placeholder="Location..." required/>
+                <input type="money" placeholder="Salary..." required/>
+                
+                <button>Register</button>
+                <p class="message"> Already registerered ?<a href="#Login" class="link">login</a></p>
+            </form>
+            <form class="login-form login" id="Login" >
+                <input type="text" placeholder="User name..." required/>
+                <input type="email" placeholder="Email..."required/>
+                <div class="input-group" id="show_hide_password">
+                <input class="form-control" type="password" placeholder="Password..."required/>
+                <div class="input-group-addon">
+                    <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                  </div>
+              </div>
+                <input type="password" placeholder=" confirm Password..."required/>
+                <button> login </button>
+                <p class="message">Not Register ? <a href="#Register" class="link"> Register</a></p> 
+                
+            </form>
+       
+        </div>
+        
+        </div>
+  
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+		var message = document.getElementsByClassName(".link");
+		var form = document.getElementsByClassName(".form");
+				
+		$(".link").click(function(){
+		$("form").animate({height: "toggle" , opacity:"toggle"}, "slow");
+		$(".register-form").css({display:"block"});
+		});
+		
+		message.click(function(){
+		form.animate({height:"toggle", opacity:"toggle"}, "slow");
+			});
+       </script>
+       <script src="script.js.js"></script>
+         
+       
+       
+     
+</body>
+
+</html>

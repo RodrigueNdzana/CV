@@ -1,0 +1,159 @@
+body{
+    background-color: #101119;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+.wrapper{
+    width: 100%;
+    background-color:#111627; 
+}
+#mainmenu{
+    padding-bottom: -4px;
+}
+#footer{
+    width: 100%;
+    background-color:#111627; 
+}
+.logoarea{
+	width:1241px;
+	height:356px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	margin:90px 0px 0px -688px;
+}
+.Innermainmenu{
+	width:1903px;
+    margin:6px 0px 1px -3px;
+}
+.Innermainmenu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+}
+.Innermainmenu ul li{
+    float: none;
+    display: inline-block;
+}
+.Innermainmenu ul li:nth-child(1){
+    float: left;  
+}
+.Innermainmenu ul li:nth-child(2){
+    float: left;  
+}
+.Innermainmenu ul li a{
+    color: red;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: block;
+    padding: 66px 20px;
+    transition: 0.6s all;
+}
+.Innermainmenu a:hover{
+    background-color: dodgerblue;
+}
+
+#footer{
+    background-color: #111627;
+    position: absolute;
+    height: 100px;
+    margin: 1237px 0px 0px -6px ;
+    clear: both;
+}
+.copy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1066b1;
+    font-size: 55px;
+    margin-top: 20px
+}
+.followus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1066b1;
+    font-size: 55px;
+    margin:-63px 0px 0px 916px;
+}
+}
+/*---------end of menu footer-----------*/
+
+/*----------footer for copyright--------*/
+
+/*----------end of copyright footer-----*/
+.login-page{
+    width: 360px;
+    padding: 10% 0 0 ;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background-image: url(images/block.png);
+    max-width: 614px;
+    margin: 150px auto;
+    padding: 60px;
+    text-align: center;
+    width: 666px;
+    /*height: 547px;*/
+}
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4cAf50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #111627;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover,.form button::active{
+    background: #111627;
+}
+.form.message{
+    margin: 15px 0px 0px;
+    color: aliceblue;
+    font-size: 12px;
+}
+.form.message a{
+	color:red;
+}
+.register-form{
+	display:none;
+}
+a, a:hover{
+    color:red;
+  }
+  .fa, .fas{
+    font-weight: 900;
+  }
+  .fa, .far, .fas{
+    font-family: "Font Awesome 5 Free";
+  }
+  .fa, .fab, .fal, .far, .fas{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin: -62px  0px 0px 535px;
+    font-size: 38px;
+}
+.remenberme{
+    margin: 80px;
+}
+.box{
+    margin-left: -19px;
+}

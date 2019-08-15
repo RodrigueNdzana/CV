@@ -1,0 +1,165 @@
+
+body{
+    background-color:white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+.wrapper{
+    width: 100%;
+    background-color:#111627;
+    height: 186px; 
+}
+.wrapper h1{
+color: white;
+font-size: 74px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: -37px opx 0px 0px;
+padding: -890px;
+text-align: center;
+margin-top: -97px;
+margin-left: -215px;
+background-color: #111627;
+}
+#mainmenu{
+    padding-bottom: 100px;
+}
+#footer{
+    width: 100%;
+    background-color:#111627; 
+}
+.logoarea{
+	width:1241px;
+	height:356px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	margin:90px 0px 0px -688px;
+}
+.Innermainmenu{
+	width:1903px;
+    margin:6px 0px 1px -3px;
+}
+.Innermainmenu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+}
+.Innermainmenu ul li{
+    float: none;
+    display: inline-block;
+}
+.Innermainmenu ul li:nth-child(1){
+    float: left;  
+}
+.Innermainmenu ul li:nth-child(2){
+    float: left;  
+}
+.Innermainmenu ul li a{
+    color: red;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: block;
+    padding: 66px 20px;
+    transition: 0.6s all;
+}
+.Innermainmenu a:hover{
+    background-color: dodgerblue;
+}
+#footer{
+    background-color: #111627;
+    position: absolute;
+    height: 100px;
+    margin: 1178px 0px 0px -6px ;
+    clear: both;
+}
+.copy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1066b1;
+    font-size: 55px;
+    margin-top: 20px
+}
+.followus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1066b1;
+    font-size: 55px;
+    margin:-63px 0px 0px 916px;
+}
+.menber{
+background-color: black;
+margin: 141px 0px 0px 172px;
+}
+.menber th{
+color: white;
+font-size: 31px;
+}
+.Vehicle{
+    background-color:black;
+    margin:-42px 0px 0px 1260px;
+    width: 460px;
+}
+.Vehicle th{
+    color: white;
+    font-size: 31px;
+}
+.menberdetail input{
+    height: 25px;
+     width: 239px; 
+     margin:21px 0px 0px 59px;
+}
+.menberdetail label , #left{
+color: black; 
+font-size: 26px;
+margin-left: 98px;
+}
+.menberdetail label , #right{
+    color: black; 
+    font-size: 26px;
+    margin-left: 204px;
+    }
+#dropdown{
+height: 29px;
+width: 239px;
+margin-left: 58px;
+    }
+    .right1{
+        float: right;
+        margin-right: 72px;
+    }
+    .right2{
+        float: right;
+        margin-right: 72px;
+        margin-top: -52px;
+    }
+    .right{
+        float: right;
+        margin-right: 90px;
+        margin-top: 39px;
+    }
+    .right h1{
+        float: right;
+        margin-right: 90px;
+        margin-top: -23px;
+        
+    }
+    .right h2{
+        margin-left: 627px;
+    }
+    #car1{
+        display: ruby-base-container;
+    }
+    #color{
+        height: 136px;
+width: 155px;
+margin: 14px 0px 0px 585px;
+    }
+    .select{
+        margin-top: -191px;
+    }
+    #car2{
+        margin-left: -27px;
+    }
+    #car3{
+        margin-left: 36px;
+    }

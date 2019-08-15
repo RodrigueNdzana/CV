@@ -1,0 +1,256 @@
+
+body{
+    background-color: #101119;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: None;
+    }
+    
+      
+.wrapper{
+    width: 100%;
+    background-color:#111627;
+    height:186px; 
+}
+#mainmenu{
+    padding-bottom: 100px;
+}
+#footer{
+    width: 100%;
+    background-color:#111627; 
+}
+.logoarea{
+	width:1241px;
+	height:356px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	margin:90px 0px 0px -688px;
+}
+.Innermainmenu{
+	width:1903px;
+    margin:-172px 0px 1px -3px;
+}
+
+.Innermainmenu input[type=text] {
+    padding: 6px;
+font-size: 17px;
+border: 1px solid blue;
+float: left;
+width: 80%;
+background: #f1f1f1;
+margin: 22px 0px 0px -746px;
+width: 287px;
+  }
+.Innermainmenu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+}
+.Innermainmenu ul li{
+    float: none;
+    display: inline-block;
+}
+.Innermainmenu ul li:nth-child(1){
+    float: left;  
+}
+.Innermainmenu ul li:nth-child(2){
+    float: left;  
+}
+.Innermainmenu ul li a{
+    color: red;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: block;
+    padding: 66px 20px;
+    transition: 0.6s all;
+}
+.Innermainmenu a:hover{
+    background-color: dodgerblue;
+    }
+
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    
+    margin: -5px 0px 0px 50px;
+    width: 65px;
+    height: 27px;
+}
+.submit{
+    margin:22px 0px 0px -532px;
+}
+
+#footer{
+    background-color: #111627;
+    position: absolute;
+    height: 100px;
+    margin: 88px  0px 0px -6px ;
+    clear: both;
+}
+.copy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1066b1;
+    font-size: 55px;
+    margin-top: 20px
+}
+.followus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1066b1;
+    font-size: 55px;
+    margin:-63px 0px 0px 916px;
+}
+#car{
+    background-color: #131b30;
+    height: 469px;
+    margin-top: -128px;
+    padding-top: 150px;
+}
+
+.car{
+    width: 99%;
+    margin-top: -126px;
+    height: 574px;
+    margin-left: 9px;
+}
+.heading1{
+    margin-top: -596px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading2{
+    color: #f1e622;
+margin-left: 1355px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paragraght{
+font-size: 22px;
+margin-left: 1217px;
+}
+.learnmore{
+    color: red;
+font-size: 38px;
+padding: 1px;
+font-family: impact;
+margin: auto;
+margin-left: 284px;
+cursor: pointer;
+}
+.image1{
+    background-color: #172235;
+height: 473px;
+margin-top: 29px;
+padding-top: 150px;
+}
+.Industry{
+    margin-top: -130px;
+margin-left: 10px;
+height: 588px;
+width: 584px;
+}
+#industry{
+    
+    margin-top: -130px;
+margin-left: 9px;
+}
+.industry{
+    background-color:  yellow;
+    color: red;
+    font-size: 101px;
+    cursor: pointer; 
+}
+.image2{
+    margin: -458px 0px 0px 640px;
+}
+.product{
+    background-color: #7159a6;
+color: red;
+font-size: 107px;
+cursor: pointer;
+}
+#product{
+    margin-top: -112px;
+margin-left: 646px;
+}
+.Product{
+    margin-top: -575px;
+margin-left: 6px;
+height: 565px;
+width: 586px;
+}
+.image2{
+    margin-top: -35px;
+}
+.customer{
+    background-color: #d6a2ca;
+    color: red;
+    font-size: 92px;
+    cursor: pointer;
+    height: 134px;
+}
+#customer{
+    margin-top: -112px;
+margin-left: 1288px;
+}
+.Customer{
+    margin-top: -575px;
+margin-left: 6px;
+height: 565px;
+width: 586px;
+}
+.image3{
+margin-top: -40px;
+margin-left: 1282px;
+}
+.image4{
+    margin-top:164px ;
+  
+
+}
+.Activity{
+    margin-top: -130px;
+margin-left: 10px;
+height: 588px;
+width: 584px;
+}
+#activity{
+    
+    margin-top: -105px;
+margin-left: 9px;
+}
+.activity{
+    background-color:  #ace;
+    color: red;
+    font-size: 99px;
+    cursor: pointer; 
+ 
+}
+.image5{
+  
+    margin-top: -610px;
+
+}
+.Director{
+    margin-left: 652px;
+    height: 590px;
+    width: 584px;
+}
+#director{
+    
+    margin-top: -105px;
+    margin-left: 654px;
+}
+.director{
+    background-color: #a3bcd4;
+color: red;
+font-size: 83px;
+cursor: pointer;
+height: 121px;
+ 
+}

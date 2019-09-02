@@ -8,17 +8,16 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    }
+}
+
+/*-- wrapper of the page css code--*/
 .wrapper{
     width: 100%;
     background-color:#111627; 
+    height: 221px;
 }
 #mainmenu{
     padding-bottom: 100px;
-}
-#footer{
-    width: 100%;
-    background-color:#111627; 
 }
 .logoarea{
 	width:1241px;
@@ -26,19 +25,16 @@ body{
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin:90px 0px 0px -688px;
+	margin:78px 0px 0px -688px;
 }
-.contact{
-	width:1241px;
-	height:356px;
-	position:absolute;
-	left:50%;
-	top:0px;
-	margin-left:59px 0px 0px -719px;
+.logoarea img{
+    width: 619px;
+    height: 141px;
+    margin: -6px 0px 0px 186px;
 }
 .Innermainmenu{
 	width:1903px;
-	margin:6px 0px 1px -3px;
+    margin:-11px 0px 1px -3px;
 }
 .Innermainmenu ul{
     margin: 0px;
@@ -63,107 +59,23 @@ body{
     display: block;
     padding: 66px 20px;
     transition: 0.6s all;
+    margin-top: 56px;
 }
-.Innermainmenu a:hover{
-    background-color: dodgerblue;
-    }
-.ContactForm{
-    width: 76%;
-    margin: 420px auto;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 15px;
-    box-shadow: 0px 0px white;
-    height: 812px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.Innermainmenu a:hover,.active{
+    color: dodgerblue;
+    transform: scale(1.1);
 }
-.ContactForm h1{
-    margin-left: 228px;
-    font-weight: 200px
-}
-.right{
-    width: 50%;
-    height: 729px;
-    margin: auto;
-    float: right;
-    background-color:white;
-    border: 1px solid white;
-    border-radius: 15px;
-    margin: -2px;
-}
-.txtb{
-    border: 6px solid #111627;
-    margin: 5px 0px 0px 25px;
-    padding: 12px 18px;
-    border-radius: 30px;
-    width: 621px;
-}
-.txtb label{
-    display: block;
-    text-align: left;
-    color: #333;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.txtb input,.txtb text area{
-    width: 100%;
-    border: none;
-    background: none;
-    outline: none;
-    font-size: 18px;
-    margin-top: 6px;
-}
-.btn{
-    display: inline-block;
-    background-color: #c6d2f8;
-    padding: 14px 0px;
-    color: white;
-    text-transform: uppercase;
-    cursor: pointer;
-    width: 100%;
-    margin: 4px 0px;
-    border-radius: 24px;
-    height: 27px;
-}
-.send{
-    font-size: 63px;
-    margin: -25px;
-    color: black;
+/*-- contact image page css code--*/
+.contact img{
+    width: 1887px;
+    height: 529px;
+    margin: 260px 0px 0px -946px;
 }
 
-.left{
-    width: 50%;
-    height: 813px;
-    margin: auto;
-    background-color: #575faa;
-    float: left;
-    border: 1px solid white;
-    border-radius: 15px;
-}
-.mapblock{
-    margin: 0px 0px 0px 0px;
-    background-color: lightblue;
-}
-.map{
-    margin: 13px 0px 0px 0px;
-}
-.address1{
-    margin:24px auto;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.Western{
-    margin-left: 110px;
-    color: #f7ec27;
-}
-.address2{
-    margin:-269px 0px 0px 358px;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.Mpumalanga{
-    margin-left: 130px;
-    color: #f7ec27;
+/*-- footer of the page css code--*/
+#footer{
+    width: 100%;
+    background-color:#111627; 
 }
 #footer{
     background-color: #111627;
@@ -187,8 +99,143 @@ body{
 .followus a{
     width: 34px;
 }
+
+/*-- contact image of the page css code--*/
+.contact{
+	width:1241px;
+	height:356px;
+	position:absolute;
+	left:50%;
+	top:0px;
+	
+}
+
+/*-- google map section iframee css code--*/
+.mapblock{
+    margin: 0px 0px 0px 0px;
+    background-color: lightblue;
+}
+.map{
+    margin: 13px 0px 0px 0px;
+}
+.map iframe {
+    border:0; 
+    margin:0px 0px -1403px -190px; 
+    border-radius: 14px;
+}
+
+/*-- Contact Form of the page css code--*/
+.ContactForm{
+    width: 76%;
+    margin: 586px auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 0px white;
+    height: 812px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ContactForm h1{
+    margin-left: 228px;
+    font-weight: 200px
+}
+
+.address1{
+    margin:24px auto;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.address1 a{
+    color: red;
+}
+.Western{
+    margin-left: 110px;
+    color: #f7ec27;
+}
+.address2{
+    margin:-325px 0px 0px 358px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.address2 a{
+    color: red;
+}
+.Mpumalanga{
+    margin-left: 130px;
+    color: #f7ec27;
+}
+
 .Contactheading{
     
     color: red;
     font-size:78px;
 }
+.ContactForm i{
+    color: red;
+    }
+.right{
+    width: 50%;
+    height: 729px;
+    margin: auto;
+    float: right;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: -2px;
+}
+.txtb{
+    border: 6px solid #111627;
+    margin: 5px 0px 0px 25px;
+    padding: 12px 18px;
+    border-radius: 30px;
+    width: 621px;
+}
+
+.txtb textarea{
+    width: 624px;
+    height: 207px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input,.txtb text area{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.send{
+    display: inline-block;
+    background-color: #c6d2f8;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    height: 59px;
+    cursor: pointer;
+}
+.txtb:hover,.btn::active{
+    background: #111627;
+}
+.send{
+    font-size: 53px;
+    margin: 1px;
+    color: red;
+}
+
+.left{
+    width: 50%;
+    height: 813px;
+    margin: auto;
+    background-color: #575faa;
+    float: left;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+

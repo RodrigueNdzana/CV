@@ -1,22 +1,21 @@
 html,body{
     height: 100%;
-    scroll-behavior: smooth;
 }
 body{
     background-color: #101119;
     height: 100vh;
     background-size: cover;
     background-position: center;
-    }
+}
 /*---------Wrapper css code -----------*/
 
 .wrapper{
     width: 100%;
     background-color:#111627; 
-    height: 221px; 
+    height: 221px;
 }
 #mainmenu{
-    padding-bottom: 100px;
+    padding-bottom: 100px
 }
 
 .logoarea{
@@ -25,7 +24,7 @@ body{
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin:90px 0px 0px -688px;
+	margin:78px 0px 0px -688px;
 }
 .logoarea img{
     width: 619px;
@@ -34,7 +33,7 @@ body{
 }
 .Innermainmenu{
 	width:1903px;
-    margin:6px 0px 1px -3px;
+    margin:-11px 0px 1px -3px;
 }
 .Innermainmenu ul{
     margin: 0px;
@@ -125,9 +124,6 @@ body{
     box-sizing: border-box;
     font-size: 14px;
 }
-.form input:hover{
-    color: #101119;
-}
 .form button{
     font-family: "Roboto",sans-serif;
     text-transform: uppercase;
@@ -143,9 +139,6 @@ body{
 .form button:hover,.form button::active{
     background: #111627;
 }
-.login-formlogin span{
-    margin-top: 9px;
-}
 .form.message{
     margin: 15px 0px 0px;
     color: aliceblue;
@@ -154,20 +147,20 @@ body{
 .form.message a{
 	color:red;
 }
-.register-form{
+.login-form {
 	display:none;
 }
 a, a:hover{
     color:red;
-  }
+}
   /*--------- eye slash css code -----------*/
-  .fa, .fas{
+.fa, .fas{
     font-weight: 900;
-  }
-  .fa, .far, .fas{
+}
+.fa, .far, .fas{
     font-family: "Font Awesome 5 Free";
-  }
-  .fa, .fab, .fal, .far, .fas{
+}
+.fa, .fab, .fal, .far, .fas{
     display: inline-block;
     font-style: normal;
     font-variant: normal;

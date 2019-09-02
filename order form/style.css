@@ -4,38 +4,43 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    }
+}
+/*--- wrapper css code*/
 .wrapper{
     width: 100%;
-    background-color:#111627;
-    height: 186px; 
+    background-color:#111627; 
+    margin-top: -27px;
+    height: 221px; 
 }
 .wrapper h1{
-color: white;
-font-size: 74px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: -37px opx 0px 0px;
-padding: -890px;
-text-align: center;
-margin-top: -97px;
-margin-left: -215px;
-background-color: #111627;
+    color: white;
+    font-size: 74px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: -113px;
+    padding-right: 818px;
+    background-color: #111627;
+    text-decoration-line: underline;
 }
+
 #mainmenu{
     padding-bottom: 100px;
 }
-#footer{
-    width: 100%;
-    background-color:#111627; 
-}
+
 .logoarea{
 	width:1241px;
 	height:356px;
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin:90px 0px 0px -688px;
+	margin:64px 0px 0px -688px;
 }
+.logoarea img{
+    width: 619px;
+    height: 141px;
+    margin: -6px 0px 0px 186px;
+}
+
 .Innermainmenu{
 	width:1903px;
     margin:6px 0px 1px -3px;
@@ -63,16 +68,28 @@ background-color: #111627;
     display: block;
     padding: 66px 20px;
     transition: 0.6s all;
+    margin-top: 56px;
 }
-.Innermainmenu a:hover{
-    background-color: dodgerblue;
+.Innermainmenu a:hover,.active{
+    color: dodgerblue;
+    transform: scale(1.1);
 }
+
+/*--- footer css code*/
 #footer{
     background-color: #111627;
     position: absolute;
     height: 100px;
-    margin: 1178px 0px 0px -6px ;
+    margin: 1175px 0px 0px -6px ;
     clear: both;
+}
+#footer{
+    width: 100%;
+    background-color:#111627; 
+}
+#footer img{
+    width: 205px; 
+    height: 54px; 
 }
 .copy{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -86,14 +103,18 @@ background-color: #111627;
     font-size: 55px;
     margin:-63px 0px 0px 916px;
 }
+
+/*--- table menber css code*/
 .menber{
-background-color: black;
-margin: 141px 0px 0px 172px;
+    background-color: black;
+    margin: 141px 0px 0px 172px;
 }
 .menber th{
-color: white;
-font-size: 31px;
+    color: white;
+    font-size: 31px;
 }
+
+/*--- table vehicle  css code*/
 .Vehicle{
     background-color:black;
     margin:-42px 0px 0px 1260px;
@@ -103,63 +124,118 @@ font-size: 31px;
     color: white;
     font-size: 31px;
 }
+
+/*--- forms menberdetail  section  css code*/
 .menberdetail input{
     height: 25px;
-     width: 239px; 
-     margin:21px 0px 0px 59px;
+    width: 239px; 
+    margin:21px 0px 0px 59px;
 }
 .menberdetail label , #left{
-color: black; 
-font-size: 26px;
-margin-left: 98px;
+    color: black; 
+    font-size: 26px;
+    margin-left: 98px;
+    font-weight: bold;
 }
 .menberdetail label , #right{
     color: black; 
     font-size: 26px;
     margin-left: 204px;
-    }
+    font-weight: bold;
+}
 #dropdown{
-height: 29px;
-width: 239px;
-margin-left: 58px;
-    }
-    .right1{
-        float: right;
-        margin-right: 72px;
-    }
-    .right2{
-        float: right;
-        margin-right: 72px;
-        margin-top: -52px;
-    }
-    .right{
-        float: right;
-        margin-right: 90px;
-        margin-top: 39px;
-    }
-    .right h1{
-        float: right;
-        margin-right: 90px;
-        margin-top: -23px;
-        
-    }
-    .right h2{
-        margin-left: 627px;
-    }
-    #car1{
-        display: ruby-base-container;
-    }
-    #color{
-        height: 136px;
-width: 155px;
-margin: 14px 0px 0px 585px;
-    }
-    .select{
-        margin-top: -191px;
-    }
-    #car2{
-        margin-left: -27px;
-    }
-    #car3{
-        margin-left: 36px;
-    }
+    height: 29px;
+    width: 239px;
+    margin-left: 58px;
+}
+
+/*--- check boxes detail session  css code*/
+.right1{
+    float: right;
+    margin-right: 72px;
+}
+.right2{
+     float: right;
+     margin-right: 72px;
+     margin-top: -52px;   
+}
+.right{
+     float: right;
+     margin-right: 90px;
+     margin-top: 39px;  
+}
+.right h1{
+     float: right;
+     margin-right: 90px;
+     margin-top: -23px; 
+}
+.right h2{
+     margin-left: 627px;
+}
+#car1{
+     display: ruby-base-container;
+}
+#color{
+     height: 136px;
+     width: 155px;
+     margin: 14px 0px 0px 585px;
+}
+.select{
+     margin-top: -191px;
+}
+#car2{
+     margin-left: -27px;
+}
+#car3{
+     margin-left: 36px;
+}
+
+     
+/*--- Save button  session  css code*/
+.save{
+    margin-left:  846px;
+    color: white;        
+}
+.form button:hover,.form button::active{
+    background: #111627;
+}
+.save button{
+    cursor: pointer;
+    width: 150px;
+    height: 56px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: black;
+    color: white;
+}
+/*--- office use info  detail session  css code*/
+.orderlink{
+    background-color:black;
+    margin:28px 0px 0px 443px;
+    color: white;
+}
+.auto-style{
+    width: 972px;
+    font-size: 40px;
+}
+.auto-style1{
+    background-color:black;
+}
+.auto-style2{
+    width: 441px;
+    font-size:40px;
+    color:red;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.auto-style3{
+    height: 81px;       
+}
+th{
+    color: white;
+    font-size: 42px;
+}
+.auto-style4{
+    height: 44px;
+}
+    

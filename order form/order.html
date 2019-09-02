@@ -5,151 +5,169 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="wrapper">
-                <div id="mainmenu">
-                <div class="logoarea">
-                <a href=""><img alt="" src="images/HOUSE_03_03.png" style="width: 619px;height: 141px;margin: -54px 0px 0px 186px;"></a>
-                </div>
-                  <div class="Innermainmenu">
-                  <ul>
-                      <li><a href="file:///E:/Photoshop%20project/Home%20page/Home.html"> Home</a></li>
-                      <li><a href="file:///E:/Photoshop%20project/order%20form/order.html"> Services</a></li>
-                      <li><a href="file:///E:/Photoshop%20project/Gallery%20page/Gallery.html"> Gallery</a></li>
-                      <li><a href="file:///E:/Photoshop%20project/Contactpage/index.html"> contact us</a></li>
-                      <li><a href="file:///E:/Photoshop%20project/About%20us%20page/About.html"> About us</a></li>
-                  </ul>
-                </div>
-                </div>
-                <h1><u> Vehicle Order form</u></h1>
-              </div>  
-              <table class="menber"  >
-                <tr>
-                    <th> Member / Customer Information</th>
-                </tr>
-            </table>
-            <table class="Vehicle">
-              <tr>
-                  <th> Vehicle information </th>
-              </tr>
-          </table>
-          <div>
-          <form class="menberdetail" >
-              <input type="text" name="txtName" value="" size="40" maxlength="20" required  "  />
-              <input type="text" name="txtSurname" value="" size="40" maxlength="20"  />
-              
-              <div class="right1">
-                  <input type="date" name="txtYear" value="" size="40" maxlength="20"  />
-                  <input type="text" name="txtmake" value="" size="40" maxlength="20" required  />
-                  <br>
-                  <label id="left" for="First Name" ><strong>Year</strong>  </label>
-                  <label id="right" for="Last Name" ><strong> Make</strong> <font color="red">*</font></label>
-                  <br>
-              </div>
+<!-----========== start of the code====----------==-->
 
-              <br>
-              <label id="left" for="First Name" ><strong>First name</strong> <font color="red">*</font></label>
-              <label id="right" for="Last Name" ><strong> Last name</strong> </label>
-              <br>
-              <input type="email" name="txtemail" value="" size="40" maxlength="20" required  "  />
-              <input type="number" name="txtNumber" value="" size="40" maxlength="20"  />
-              
-              <div class="right2">
-                  <input type="text" name="txtName" value="" size="40" maxlength="20"  "  />
-                  <input type="number" name="txtSurname" value="" size="40" maxlength="20"  />
-                  <br>
-                  <label id="left" for="Model" ><strong>Model</strong></label>
-                  <label id="right" for="Car Number" ><strong> Number</strong></label>
-                  <br>
-              </div>
+<!-- Wrapper of the page -->
+   <div class="wrapper">
+       <div id="mainmenu">
+           <div class="logoarea">
+            <img alt="" src="images/HOUSE_03_03.png">
+           </div>
+           <div class="Innermainmenu">
+               <ul>
+                   <li><a href="../Home page/Home.html" target=”_blank”> Home</a></li>
+                   <li><a href="#"> Services</a></li>
+                   <li><a href="../Gallery page/Gallery.html" target=”_blank”> Gallery</a></li>
+                   <li><a href="../Contactpage/index.html" target=”_blank”> contact us</a></li>
+                   <li><a href="../About us page/About.html" target=”_blank”> About us</a></li>
+               </ul>
+          </div>
+       </div>
+      <h1> Vehicle Order form</h1>
+   </div> 
 
+<!-- footer of the page -->
+   <footer id="footer" >
+       <div class="copy"> &copy; Copyright <font color="red">2019</font> Project</div>
+       <div class="followus">Follow us on :
+           <a href=""><img alt="" src="images/Twitter.png"></a>
+           <a href=""><img alt="" src="images/instagram.png"></a>
+           <a href=""><img alt="" src="images/facebook Icon.png"></a>
+       </div>
+   </footer>
+
+   <!--table sections to display both menber and vehicle inorder to control the width --> 
+   <table class="menber">
+       <tr>
+           <th> Member / Customer Information</th>
+       </tr>
+   </table>
+   <table class="Vehicle">
+       <tr>
+         <th> Vehicle information </th>
+       </tr>
+   </table>
+
+<!-- forms menberdetail  section-->
+   <form class="menberdetail">
+       <input type="text" name="txtName" value="" size="40" maxlength="20" required/>
+       <input type="text" name="txtSurname" value="" size="40" maxlength="20"/>
+       <div class="right1"> <!--- vehicle right detail -->
+           <input type="date" name="txtYear" value="" size="40" maxlength="20"  />
+           <input type="text" name="txtmake" value="" size="40" maxlength="20" required  />
+           <br>
+           <label id="left" for="First Name" >Year  </label>
+           <label id="right" for="Last Name" >Make<font color="red">*</font></label>
+           <br>
+       </div>
+       <br>
+       <label id="left" for="First Name" >First name <font color="red">*</font></label>
+       <label id="right" for="Last Name" >Last name </label>
+       <br>
+       <input type="email" name="txtemail" value="" size="40" maxlength="20" required />
+       <input type="number" name="txtNumber" value="" size="40" maxlength="20"/>
+       <div class="right2"><!--- vehicle right detail -->
+       <input type="text" name="txtName" value="" size="40" maxlength="20"/>
+       <input type="number" name="txtSurname" value="" size="40" maxlength="20"/>
+       <br>
+       <label id="left" for="Model" >Model</label>
+       <label id="right" for="Car Number" > Number</label>
+       <br>
+       </div>
+       <br>
+       <label id="left" for="email" >Email <font color="red">*</font></label>
+       <label id="right" for="Contact" >contact Number<font color="red">*</font> </label>
+       <br>
+       <input type="text" name="txtcontactname" value="" size="40" maxlength="20" required/>
+ <!--- dropdownlist detail session for Cities -->
+       <select id="dropdown" name="ddlCountry" onchange='CheckCountry(this.value); '> 
+           <option>select your permanent city</option>  
+           <option value="Cape Town">Cape Town</option>
+           <option value="Johannesburg">Johannesburg</option>
+           <option value="Pretoria">Pretoria</option>
+           <option value="Durban">Durban</option>
+           <option value="Soweto">Soweto</option>
+           <option value="others">others</option>
+      </select>
+<!--- check boxes detail session -->
+      <div class="right"> 
+          <h1>indicate the style of your Vehicle</h1>
+          <h2>Color</h2>
+          <input id="color" type="color" name="car" value="" size="70" maxlength="20" />
+          <div class="select">
+              <label id="car1" for="car" >Car </label>
+              <input type="Checkbox" name="car" value="" size="70" maxlength="20"/>
               <br>
-              <label id="left" for="email" ><strong>Email</strong> <font color="red">*</font></label>
-              <label id="right" for="Contact" ><strong>contact Number</strong><font color="red">*</font> </label>
+              <label id="car1" for="Van" >Van </label>
+              <input type="Checkbox" name="Van" value="" size="70" maxlength="20"/>
               <br>
-              <input type="text" name="txtcontactname" value="" size="40" maxlength="20" required  "  />
-              <select id="dropdown" name="ddlCountry" onchange='CheckCountry(this.value); '> 
-                  <option>select your permanent city</option>  
-                  <option value="Cape Town">Cape Town</option>
-                  <option value="Johannesburg">Johannesburg</option>
-                  <option value="Pretoria">Pretoria</option>
-                  <option value="Durban">Durban</option>
-                  <option value="Soweto">Soweto</option>
-                  <option value="others">others</option>
-               </select>
-               <div class="right">
+              <label id="car1" for="Truck" >Truck  </label>
+              <input id="car3" type="Checkbox" name="Truck" value="" size="70" maxlength="20"   />
+              <label id="car1" for="Semi-Truck" >Semi-Truck</label>
+               <input id="car2" type="Checkbox" name="Semi-Truck" value="" size="70" maxlength="20"   />
+          </div>
+          <br>
+          </div>
+          <br>
+          <label id="left" for="Contact" >Contact Name<font color="red">*</font></label>
+          <label id="right" for="city" >City <font color="red">*</font> </label>
+          <br>
+          <input type="address" name="txtaddress" value="" size="40" maxlength="20" required />
+ <!--- dropdownlist detail session for Provinces -->
+          <select id="dropdown" name="ddlprovince" onchange='CheckCountry(this.value); '> 
+              <option><b>Select your permanent Provinces</b> </option>  
+              <option><b>Select your permanent Provinces </b> </option>  
+              <option value="Northen Cape">Northen Cape</option>
+              <option value="Easten cape">Easten cape</option>
+              <option value="Western Cape">Western Cape</option>
+              <option value="Limpopo">Limpopo</option>
+              <option value="Kwa-Zulu Natal">Kwa-Zulu Natal</option>
+              <option value="others">others</option>
+          </select>
+          <br>
+          <label id="left" for="address" >address<font color="red">*</font></label>
+          <label id="right" for="Province" >Province</label>
+          <br>
+          <input type="number" name="txtpostalcode" value="" size="40" maxlength="20"  />
+          <input type="number" name="txtphone" value="" size="40" maxlength="20"  />
+          <br>
+          <label id="left" for="postalcode" >Postal Code</label>
+          <label id="right" for="" >Phone Number  </label>
+          <br>
+          <TextBox><input class="company" type="text" name="txtcompanyNmane" value="" size="40" maxlength="90" required> </TextBox>
+          <br>
+          <label id="left" for="CompanyName" >Company Name </label>
+          <!--- Save button session session -->
+   <div class="save">
+        <button>  Save Form </button>
+    </div>
+   </form>
+ 
+<!--- office use info  detail session -->
+   <table  class="orderlink">
+       <tr>
+           <th class="auto-style"> Please fax your order at  <a href="Contact us form.aspx"><font color="red"><b> (+27) 0840585408 </b></font> </a> </th>
+       </tr>  
+   </table>   
+   <table class="auto-style1" >
+       <caption class="auto-style2">  Office use only:</caption>
+       <tr>
+           <th>Customer : </th>
+           <td class="auto-style3"><input class="auto-style4" type="text" name="txtCustomer" value="" size="40" maxlength="20"   /></td>
+       </tr>
+       <tr>
+           <th>Date of form : </th>
+           <td class="auto-style3"><input class="auto-style4" type="text" name="txtDateForm" value="" size="40" maxlength="20"   /></td>
+       </tr>
+       <tr>
+           <th>File Name : </th>
+           <td class="auto-style3"><input class="auto-style4" type="text" name="txtFileName" value="" size="40" maxlength="20"   /></td>
+       </tr>
+   </table>
+      
                     
-                   <h1>indicate the style of your Vehicle</h1>
-                   <div id="" >
-                   <h2>Color</h2>
-                   <input id="color" type="color" name="car" value="" size="70" maxlength="20"   />
-                </div>
-                <div class="select">
-                   <label id="car1" for="car" ><strong>Car</strong>  </label>
 
-                   <input type="Checkbox" name="car" value="" size="70" maxlength="20"   />
-                 
-                   <br>
-                
-                   <label id="car1" for="Van" ><strong>Van</strong>  </label>
-                   <input type="Checkbox" name="Van" value="" size="70" maxlength="20"   />
-                   
-                   <br>
-                  
-                   <label id="car1" for="Truck" ><strong>Truck</strong>  </label>
-                   <input id="car3" type="Checkbox" name="Truck" value="" size="70" maxlength="20"   />
-                   <label id="car1" for="Semi-Truck" ><strong>Semi-Truck</strong>  </label>
-                   <input id="car2" type="Checkbox" name="Semi-Truck" value="" size="70" maxlength="20"   />
-                </div>
-                   <br>
-                
-               </div>
-              <br>
-              <label id="left" for="Contact" ><strong>Contact Name</strong> <font color="red">*</font></label>
-              <label id="right" for="city" > <strong>City</strong> <font color="red">*</font> </label>
-              <br>
-              <input type="address" name="txtaddress" value="" size="40" maxlength="20" required />
-              <select id="dropdown" name="ddlprovince" onchange='CheckCountry(this.value); '> 
-                  <option><b>Select your permanent Provinces</b> </option>  
-                  <option><b>Select your permanent Provinces </b> </option>  
-                  <option value="Northen Cape">Northen Cape</option>
-                  <option value="Easten cape">Easten cape</option>
-                  <option value="Western Cape">Western Cape</option>
-                  <option value="Limpopo">Limpopo</option>
-                  <option value="Kwa-Zulu Natal">Kwa-Zulu Natal</option>
-                  <option value="others">others</option>
-               </select>
-
-               <br>
-               <label id="left" for="address" ><strong> address</strong><font color="red">*</font></label>
-              <label id="right" for="Province" > <strong>Province</strong> </label>
-              <br>
-              <input type="number" name="txtpostalcode" value="" size="40" maxlength="20"  />
-              <input type="number" name="txtphone" value="" size="40" maxlength="20"  />
-              <br>
-              <label id="left" for="postalcode" ><strong>Postal Code</strong> </label>
-              <label id="right" for="" ><strong> Phone Number</strong>  </label>
-              <br>
-              <TextBox><input class="company" type="text" name="txtcompanyNmane" value="" size="40" maxlength="20" required> </TextBox>
-              <br>
-              <label id="left" for="CompanyName" ><strong> Company Name</strong> </label>
-          </form>
-         
-</div>
-              <div class="image"></div>
-                    <footer id="footer" >
-                            <div class="copy"> &copy; Copyright <font color="red">2019</font> Project</div>
-                            <div class="followus">Follow us on :
-                              <a href=""><img alt="" src="images/Twitter.png" style="width: 205px; height: 54px;"></a>
-                              <a href=""><img alt="" src="images/instagram.png" style="width: 205px; height: 54px;"></a>
-                              <a href=""><img alt="" src="images/facebook Icon.png" style="width: 205px; height: 54px;"></a>
-                            </div>
-                   </footer>
-           
-
-
-
-
-
+<!-----========== end of the code====----------==-->
 </body>
 
 </html>

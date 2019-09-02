@@ -1,20 +1,21 @@
-
+html,body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
 body{
     background-color: white;
     height: 100vh;
     background-size: cover;
     background-position: center;
-    }
+}
+/*----start of Wrapper css code------*/
 .wrapper{
     width: 100%;
     background-color:#111627; 
+    height: 258px
 }
 #mainmenu{
     padding-bottom: 100px;
-}
-#footer{
-    width: 100%;
-    background-color:#111627; 
 }
 .logoarea{
 	width:1241px;
@@ -22,7 +23,12 @@ body{
 	position:absolute;
 	left:50%;
 	top:0px;
-	margin:78px 0px 0px -688px;
+	margin:90px 0px 0px -688px;
+}
+.logoarea img{
+    width: 619px;
+    height: 141px;
+    margin: -6px 0px 0px 186px;
 }
 .Innermainmenu{
 	width:1903px;
@@ -51,45 +57,61 @@ body{
     display: block;
     padding: 66px 20px;
     transition: 0.6s all;
+    margin-top: 56px;
 }
-.Innermainmenu a:hover{
-    background-color: dodgerblue;
-    }
-#footer{
-    background-color: #111627;
-    position: absolute;
-    height: 100px;
-    margin: 1927px 0px 0px -6px ;
-    clear: both;
+.Innermainmenu a:hover,.active{
+    color: dodgerblue;
+    transform: scale(1.1);
 }
+
+
+
+/*----intoduction heading of the page ------*/
+.heading{
+    margin: 99px 67px 42px 0px;
+    height: 0px;
+}
+.heading h3{
+    color: white;
+    font-size: 46px;
+    margin: -153px 0px -200px 0px;
+    text-decoration-line: underline;
+}
+
+/*----Start of team css code-----*/
 .team{
-    overflow: hidden;
-    padding: 10px;
+
+    margin-top:72px;
     text-align: center;
     background: aliceblue;
-
 }
 .team h1{
-text-transform: uppercase;
-margin-bottom: 44px;
-color:#1066b1;
-font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+    color:#1066b1;
+    font-size: 45px;
+}
+.team, .fa{
+    color: red;
+    padding: 4px;
 }
 .boarder{
     display: block;
-   margin: auto;
+    margin: auto;
     width: 160px;
     height: 3px;
     margin-bottom: 40px;
     background: #101119;
-
+}
+.boarder img{
+    height: 159px;
 }
 .ps{
     margin-bottom: 40px;
 }
 .ps a{
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 79px;
     width: 160px;
     height: 160px;
     overflow: hidden;
@@ -102,7 +124,9 @@ font-size: 45px;
 }
 .ps a:hover > img{
     filter: none;
+    transform: scale(1.1);
 } 
+
 .section{
     width: 600px;
     margin: auto;
@@ -111,15 +135,15 @@ font-size: 45px;
     text-align: justify;
     height: 0;
     overflow: hidden;
-
 }
 .section:target{
     height: auto;
 }
-.section,#p1 {
+.section h1 {
     font-size: 22px;
     color: black;
     text-align: justify;
+    text-decoration-line: underline;
 }
 .name{
     display: block;
@@ -129,7 +153,25 @@ font-size: 45px;
     font-size: 22px;
 }
 
+/*----start of about us logo image of people lifting a trofy*/
+.aboutuslogo{
+    width: 100%;
+    height: 444px;
+    margin-top: 10px ;
+}
 
+/*----start of footer css code ------*/
+#footer{
+    width: 100%;
+    background-color:#111627; 
+}
+#footer{
+    background-color: #111627;
+    position: absolute;
+    height: 100px;
+    margin: 1927px 0px 0px -6px ;
+    clear: both;
+}
 .copy{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#1066b1;
@@ -142,26 +184,11 @@ font-size: 45px;
     font-size: 55px;
     margin:-63px 0px 0px 916px;
 }
-.aboutuslogo{
-    width: 100%;
-    height: 444px;
-    margin-top: 10px ;
+.followus img{
+    width: 205px; 
+    height: 54px;
 }
-.h3{
-    color:white;
-    font-size: 51px;
-    margin: -226px 0px -84px 0px;
-}
-
-
-.aboutus{
-    background-color: #101119;
-}
-#aboutus{
-    color: #1066b1;
-    font-size: 51px;
-    margin-top: -340px;
-}
+/*----css code of the top button-----*/
 #myBtn {
     display: none;
     position: fixed;
@@ -177,12 +204,13 @@ font-size: 45px;
     padding: 15px;
     border-radius: 4px;
   }
-  
   #myBtn:hover {
-    background-color: #555;
+    background-color: #111627;
   }
+
+  /*----about us container that display logo and information css code-----*/
   .container{
-      margin-top: -277px;
+    margin-top: -277px;
   }
   .mission{
     width: 296px;
@@ -193,97 +221,102 @@ font-size: 45px;
     text-align: center;
     font-size: 78px;
     margin-top: -113px;
+    text-decoration-line: underline;
 }
   .missionParagrapht{
       width: 100%;
       font-size: 36px;
-
   }
   .buttonmission{
-    color: red;
-    margin-left: 269px;
-    width: 229px;
-    height: 45px;
-    font-size: 33px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    cursor: pointer;
+      color: red;
+      margin-left: 269px;
+      width: 229px;
+      height: 45px;
+      font-size: 33px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      cursor: pointer;
   }
+
   .vission{
       margin-top: -330px;
   }
-  .buttonvission{
-    color: red;
-    margin-left: 81px;
-    width: 229px;
-    height: 45px;
-    font-size: 33px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    cursor: pointer;
-  }
   #Vision{
-    text-align: center;
-    font-size: 78px;
-    margin-top: -113px;
-    margin-left: -49px;
+      text-align: center;
+      font-size: 78px;
+      margin-top: -113px;
+      margin-left: -49px;
+      text-decoration-line: underline;
+}
+  .buttonvission{
+      color: red;
+      margin-left: 81px;
+      width: 229px;
+      height: 45px;
+      font-size: 33px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      cursor: pointer;
   }
-  .Achievement{
-       margin-top: -319px;
+
+.Achievement{
+      margin-top: -319px;
 }
 #Achievement{
-text-align: center;
-font-size: 78px;
-margin-top: -131px;
-margin-left: 157px;
+      text-align: center;
+      font-size: 78px;
+      margin-top: -131px;
+      margin-left: 157px;
+      text-decoration-line: underline;
 }
 .buttonachievement{
-    color: red;
-    margin-left: 193px;
-    width: 229px;
-    height: 45px;
-    font-size: 33px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    cursor: pointer;
+      color: red;
+      margin-left: 193px;
+      width: 229px;
+      height: 45px;
+      font-size: 33px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      cursor: pointer;
 }
 .Special{
-    margin-top: -319px;
+      margin-top: -319px;
 }
 #Special{
-text-align: center;
-font-size: 78px;
-margin-top: -131px;
-margin-left: 122px;
+      text-align: center;
+      font-size: 78px;
+      margin-top: -131px;
+      margin-left: 122px;
+      text-decoration-line: underline;
 }
 .buttonspecial{
- color: red;
- margin-left: 540px;
- width: 229px;
- height: 45px;
- font-size: 33px;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- cursor: pointer;
+      color: red;
+      margin-left: 540px;
+      width: 229px;
+      height: 45px;
+      font-size: 33px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      cursor: pointer;
 }
 .Date{
-    margin-top: -319px;
+      margin-top: -319px;
 }
 #Date{
-text-align: center;
-font-size: 78px;
-margin-top: -131px;
-margin-left: 272px;
+      text-align: center;
+      font-size: 78px;
+      margin-top: -131px;
+      margin-left: 272px;
+      text-decoration-line: underline;
 }
 .buttonDate{
- color: red;
- margin-left: 147px;
- width: 229px;
- height: 45px;
- font-size: 33px;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- cursor: pointer;
+      color: red;
+      margin-left: 147px;
+      width: 229px;
+      height: 45px;
+      font-size: 33px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      cursor: pointer;
 }
-.heading{
-    margin: 90px 67px 151px 0px;
-}
+
 .word{
-    font-size: 36px;
+     font-size: 36px;
 }
+/*----end */
   

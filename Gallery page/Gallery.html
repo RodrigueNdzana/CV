@@ -1,262 +1,289 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Order Form</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Gallery  Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"> <!---external link of fonts---->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"> <!---external link of my gallery script---->
 </head>
 <body>
 
-      <div class="wrapper">
-        <h3 class="call"> Give us a Call on<a><font color="red">(+27)0840585408</font></a></h3>
-        <div id="mainmenu">
-          <div class="logoarea">
-                <a href=""><img alt="" src="images/HOUSE_03_03.png" style="width: 619px;height: 141px;margin: -54px 0px 0px 186px;"></a>
+<!--=-----===== start of the code------=====-->
+
+<!-- wrapper of the page-->    
+  <div class="wrapper">
+    <h3 class="call"> Give us a Call on <a href="#">(+27)0840585408</a> </h3>
+    <div id="mainmenu">
+      <div class="logoarea">
+        <img alt="" src="images/HOUSE_03_03.png">
+      </div>
+      <div class="Innermainmenu">
+        <ul>
+           <li><a href="../Home page/Home.html" target=”_blank”> Home</a></li>
+           <li><a href="../order form/order.html" target=”_blank”> Services</a></li>
+           <li><a href="#"> Gallery</a></li>
+           <li><a href="../Contactpage/index.html" target=”_blank”> contact us</a></li>
+           <li><a href="../About us page/About.html" target=”_blank”> About us</a></li>
+        </ul>
+     </div>
+   </div>
+ </div> 
+
+<!-- footer of the page  -->
+ <footer id="footer">
+   <div class="copy"> © Copyright <font color="red">2019</font> Project</div>
+   <div class="followus">Follow us on :</div>
+   <a href=""><img class="followuslink" alt="" src="images/Twitter.png"></a>
+   <a href=""><img class="followuslink" alt="" src="images/instagram.png"></a>
+   <a href=""><img class="followuslink" alt="" src="images/facebook Icon.png "></a>
+</footer>
+  
+<!-- gallery slideshow  -->
+ <div class="center"> 
+   <img class="mySlides" src="images/person.jpg" style="display: none;">
+   <img class="mySlides" src="images/lamborginy.png" style="display: none;">
+   <img class="mySlides" src="images/Change 2.png" style="display: none;">
+   <img class="mySlides" src="images/Ford.png" style="display: none;">           
+   <img class="mySlides" src="images/Change 1.png" style="display: none;">
+   <img class="mySlides" src="images/Toyota.png" style="display: none;">
+   <img class="mySlides" src="images/Change 5.png" style="display: none;">
+   <img class="mySlides" src="images/Nissan.png" style="display: none;">
+   <img class="mySlides" src="images/Nissanp0.png" style="display: none;">
+   <img class="mySlides" src="images/Nissan.png" style="display: none;">
+   <img class="mySlides" src="images/Chrysler  .png" style="display: none;">         
+   <img class="mySlides" src="images/Chrysler0.png" style="display: block;">
+   <img class="mySlides" src="images/Chevrolet .png" style="display: none;">
+   <img class="mySlides" src="images/Chevrolet0.png" style="display: none;">
+ </div>
+
+<!-- gallery slideshow External JavaScript  -->
+<script src="../Gallery page/JavaScript/slideshow.js"></script>
+<div class="galleryheading"> 
+    <a href=".GalleryForm"> <h3> Gallery </h3> </a>  
+</div>
+
+
+<!-- gallery form  -->
+ <div class="GalleryForm">
+
+<!-- gallery form that is found on the left hand side of the container  -->
+
+<!--  left hand side image and price session of lamborginy  -->
+  <div class="left">
+    <h1 class="price"> R 3547900</h1>
+    <div class="lamborginy">
+      <img id="lamborginy" alt="" src="images/lamborginy.png">
+        <div class="button">
+          <input class="button" type="button" name="btnView" value="View Car">
+        </div>
+    </div>
+
+<!--  left hand side basic info session of ford  -->    
+    <table class="tableford">
+      <caption class="infor"> Basic Car info. For more car option click to the provide link 
+        <a href="">https://wwww.Ford/Rodriguemotor.com</a>
+      </caption>
+        <tbody>
+          <tr>
+            <th>Brand :</th>
+            <td> Ford </td>
+          </tr>
+          <tr>
+            <th>Region :</th>
+            <td> Cape Town , Mpumalanga</td>
+          </tr>
+          <tr>
+            <th>ODO :</th>
+            <td> 778668 Km </td>
+          </tr>
+          <tr>
+            <th>Year :</th>
+            <td> 2015 </td>
+          </tr> 
+          <tr>
+            <th>Fuel :</th>
+            <td> Petrol</td>
+          </tr>
+          <tr>
+            <th>Gear -box :</th>
+            <td> Manual</td>
+          </tr>
+          <tr>
+            <th>Avaliabity color :</th>
+            <td> Black, Blue , orange</td>
+          </tr>
+          <tr>
+            <th>Model :</th>
+            <td> Everest </td>
+          </tr>
+         </tbody>
+     </table>
+
+<!--  left hand side image and price session of Volkewagen  -->
+     <div class="Volkewagen">
+       <h1 class="priceVolkewagen"> R 3547900</h1>
+       <img id="Volkewagen" alt="" src="images/Volvo0.png">   
+        <div class="button">
+          <input class="button" type="button" name="btnView" value="View Car">
+        </div>
+      </div>
+  </div>
+
+<!-- gallery form that is found on the right hand side of the container  -->
+
+<!--  Right hand side basic info session of Lamborginy  -->    
+    <div class="right">
+      <table class="tableLamborginy">
+        <caption class="infor"> Basic Car info. For more car option click to the provide link 
+          <a href="">https://wwww.Lamborginy/Rodriguemotor.com</a>
+        </caption>
+        <tbody>
+          <tr>
+            <th>Brand :</th>
+            <td> lamborginy</td>
+          </tr>
+          <tr>
+            <th>Region :</th>
+            <td> Gauteng , western Cape</td>
+          </tr>
+          <tr>
+            <th>ODO :</th>
+            <td> 754774 Km </td>
+          </tr>
+          <tr>
+            <th>Year :</th>
+            <td> 2016 </td>
+          </tr> 
+          <tr>
+            <th>Fuel :</th>
+            <td> Petrol</td>
+          </tr>
+          <tr>
+            <th>Gear -box :</th>
+            <td> Manual</td>
+          </tr>
+          <tr>
+            <th>Avaliabity color :</th>
+            <td> Black, Blue , orange</td>
+          </tr>
+          <tr>
+            <th>Model :</th>
+            <td> A3 </td>
+          </tr>
+        </tbody>
+       </table>
+
+<!--  left hand side image and price session of Ford  -->
+       <div class="Ford">
+         <h1 class="priceford"> R 3547900</h1>
+         <img id="ford" alt="" src="images/ford0.png">
+       <div>
+         <input class="buttonford" type="button" name="btnView" value="View Car">
+       </div>
+      </div>
+
+<!--  Right hand side basic info session of Volkewage  -->   
+      <table class="Volkewage">
+        <caption class="infor"> Basic Car info. For more car option click to the provide link 
+          <a href="">https://wwww.Volkewagen/Rodriguemotor.com</a>
+        </caption>
+          <tbody>
+            <tr>
+              <th>Brand :</th>
+              <td> Volkewagen </td>
+            </tr>
+            <tr>
+              <th>Region :</th>
+              <td> Gauteng , Western Cape</td>
+            </tr>
+            <tr>
+              <th>ODO :</th>
+              <td> 7908950 Km </td>
+            </tr>
+            <tr>
+              <th>Year :</th>
+              <td> 2016 </td>
+            </tr> 
+            <tr>
+              <th>Fuel :</th>
+              <td> Polo Wacth</td>
+            </tr>
+            <tr>
+              <th>Gear -box :</th>
+              <td> Automative</td>
+            </tr>
+            <tr>
+              <th>Avaliabity color :</th>
+              <td> Black, Blue , orange</td>
+            </tr>
+            <tr>
+              <th>Model :</th>
+              <td> A3 </td>
+            </tr>
+          </tbody>
+       </table>
+<!--  The Gallery Sale session heading  -->                           
+       <div class="intro">
+          <h2 class="Viewheading"> The Gallery Sale </h2>  
+        </div>
+
+<!--  The Gallery Sale session form  -->          
+        <div class="gallery">
+          <div class="section1"> <!--  The Gallery Sale session1 start  -->  
+            <div class="Photos"><a href="images/images/Buick0.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Buick0.png"></a></div><a href="images/images/Buick0.png" data-lightbox="photos" class="imglink">
+            </a><div class="Photos"><a href="images/images/Buick0.png" data-lightbox="photos" class="imglink"></a><a href="images/images/Lamborgini0.png" data-lightbox="photos"><img class="img-fluid" src="images/images/Lamborgini0.png" style="margin-left: -194px;"></a></div>
+            <div class="Photos"><a href="images/images/lexus ora.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/lexus ora.png"></a></div>
+            <div class="Photos"><a href="images/images/Chrysler  .png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Chrysler  .png"></a></div>
+            <div class="Photos"><a href="images/images/Change 1.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Change 1.png"></a></div>
+            <div id="section1">
+              <h2>Chevrolet</h2>
+              <h2>Lamborginy</h2>
+              <h2>Lexus</h2>
+              <h2>Buick</h2>
+              <h2>Ford</h2>
+            </div>
+            <div id="section1price">
+                <p>R 34526279 <br><a href="#"> Add to cart</a></p>
+                <p>R 4536722<br><a href="#"> Add to cart</a></p>
+                <p>R 453222<br><a href="#"> Add to cart</a></p>
+                <p>R 3546772<br><a href="#"> Add to cart</a></p>
+                <p>R 4562821<br><a href="#"> Add to cart</a></p>
+              </div>
           </div>
-          <div class="Innermainmenu">
-            <ul>
-                <li><a href="file:///E:/Photoshop%20project/Home%20page/Home.html"> Home</a></li>
-                <li><a href="file:///E:/Photoshop%20project/order%20form/order.html"> Services</a></li>
-                <li><a href="file:///E:/Photoshop%20project/Gallery%20page/Gallery.html"> Gallery</a></li>
-                <li><a href="file:///E:/Photoshop%20project/Contactpage/index.html"> contact us</a></li>
-                <li><a href="file:///E:/Photoshop%20project/About%20us%20page/About.html"> About us</a></li>
-              </ul>
+<!--  The Gallery Sale session2 start  -->  
+          <div class="section2">
+            <div class="Photos"><a href="images/images/Mercedes  .png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Mercedes  .png"></a></div>
+            <div class="Photos"><a href="images/images/Change7.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Change7.png"></a></div>
+            <div class="Photos"><a href="images/images/Nissan.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Nissan.png"></a></div>   
+            <div class="Photos"><a href="images/images/Change 6.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Change 6.png"></a></div>
+            <div class="Photos"><a href="images/images/Toyota.png" data-lightbox="photos" class="imglink"><img class="img-fluid" src="images/images/Toyota.png"></a></div>
+            <div id="section2">
+              <h2>A4 ectra</h2>
+              <h2>Hyundai</h2>
+              <h2>Nissan</h2>
+              <h2>Jeep</h2>
+              <h2>Mercedes</h2>
+            </div>
+              <div id="section2price">
+                <p>R 34526279 <br><a href="#"> Add to cart</a></p>
+                <p>R 4536722<br><a href="#"> Add to cart</a></p>
+                <p>R 453222<br><a href="#"> Add to cart</a></p>
+                <p>R 3546772<br><a href="#"> Add to cart</a></p>
+                <p>R 4562821<br><a href="#"> Add to cart</a></p>
+              </div>
           </div>
         </div>
-      </div> 
-
-      <footer id="footer" >
-        <div class="copy"> &copy; Copyright <font color="red">2019</font> Project</div>
-        <div class="followus" >Follow us on :</div>
-          <a href=""><img class="followuslink" alt="" src="images/Twitter.png"  ></a>
-          <a href=""><img class="followuslink" alt="" src="images/instagram.png" ></a>
-          <a href=""><img class="followuslink" alt="" src="images/facebook Icon.png " ></a>
-      </footer>
-
-      <div class="center"> 
-
-        <img class="mySlides"src="images/person.jpg"  />
-        <img class="mySlides" src="images/lamborginy.png"  />
-        <img class="mySlides" src="images/Change 2.png" />
-        <img class="mySlides" src="images/Ford.png"  />           
-        <img class="mySlides" src="images/Change 1.png"  />
-        <img class="mySlides" src="images/Toyota.png"   />
-        <img class="mySlides" src="images/Change 5.png"   />
-        <img class="mySlides" src="images/Nissan.png" />
-        <img class="mySlides" src="images/Nissanp0.png"  />
-        <img class="mySlides" src="images/Nissan.png"  />
-        <img class="mySlides" src="images/Chrysler  .png"  />         
-        <img class="mySlides" src="images/Chrysler0.png"  />
-        <img class="mySlides" src="images/Chevrolet .png"  />
-        <img class="mySlides" src="images/Chevrolet0.png"  />
-
-      </div>
-
-      <div class="galleryheading"><h3 >Gallery</h3></div>
-
-      <script>
-
-        var myIndex = 0;
-        carousel();
-        function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) { myIndex = 1 }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 7000); // Change image every 1 minute
-                           }
-      </script>
-      <div class="GalleryForm">
-          <div class="left">
-              
-            <h1 class="price"> R 3547900</h1>
-            <div class="lamborginy">
-                <img id="lamborginy" alt="" src="images/lamborginy.png">
-                
-                <div class="button">
-                <input class="button" type="button" name="btnView" value="View Car">
-              </div>
-            </div>
-            <table class="tableford" >
-                <caption class="infor"> Basic Car info. For more car option click to the provide link 
-                    <a href="">https://wwww.Ford/Rodriguemotor.com</a>
-                 </caption>
-                <tr>
-                  <th>Brand :</th>
-                  <td> Ford </td>
-                </tr>
-                <tr>
-                    <th>Region :</th>
-                    <td> Cape Town , Mpumalanga</td>
-                  </tr>
-                  <tr>
-                      <th>ODO :</th>
-                      <td> 778668 Km </td>
-                    </tr>
-                    <tr>
-                        <th>Year :</th>
-                        <td> 2015 </td>
-                      </tr> 
-                      <tr>
-                          <th>Fuel :</th>
-                          <td> Petrol</td>
-                     </tr>
-                     <tr>
-                        <th>Gear -box :</th>
-                        <td> Manual</td>
-                      </tr>
-                      <tr>
-                          <th>Avaliabity color :</th>
-                          <td> Black, Blue , orange</td>
-                        </tr>
-                        <tr>
-                            <th>Model :</th>
-                            <td> Everest </td>
-                          </tr>
-              </table>
-         
-              <div class="Volkewagen">
-                  <h1 class="priceVolkewagen"> R 3547900</h1>
-                  <img id="Volkewagen" alt="" src="images/Volvo0.png">
-                  
-                  <div class="button">
-                  <input class="button" type="button" name="btnView" value="View Car">
-                </div>
-              </div>
-          </div>
-          <div class="right">
-              
-   
-              
-            
-           
-              <table class="tableLamborginy" >
-                  <caption class="infor"> Basic Car info. For more car option click to the provide link 
-                      <a href="">https://wwww.Lamborginy/Rodriguemotor.com</a>
-                   </caption>
-                  <tr>
-                    <th>Brand :</th>
-                    <td> lamborginy</td>
-                  </tr>
-                  <tr>
-                      <th>Region :</th>
-                      <td> Gauteng , western Cape</td>
-                    </tr>
-                    <tr>
-                        <th>ODO :</th>
-                        <td> 754774 Km </td>
-                      </tr>
-                      <tr>
-                          <th>Year :</th>
-                          <td> 2016 </td>
-                        </tr> 
-                        <tr>
-                            <th>Fuel :</th>
-                            <td> Petrol</td>
-                       </tr>
-                       <tr>
-                          <th>Gear -box :</th>
-                          <td> Manual</td>
-                        </tr>
-                        <tr>
-                            <th>Avaliabity color :</th>
-                            <td> Black, Blue , orange</td>
-                          </tr>
-                          <tr>
-                              <th>Model :</th>
-                              <td> A3 </td>
-                          </tr>
-                </table>
-                <div class="Ford">
-                    <h1 class="priceford"> R 3547900</h1>
-                    <img id="ford"  alt="" src="images/ford0.png">
-                    <div >
-                        <input  class="buttonford" type="button" name="btnView" value="View Car">
-
-                    </div>
-                 </div>
-                 <table class="Volkewage" >
-               <caption class="infor"> Basic Car info. For more car option click to the provide link 
-                 <a href="">https://wwww.Volkewagen/Rodriguemotor.com</a>
-              </caption>
-                    <tr>
-                      <th>Brand :</th>
-                      <td> Volkewagen </td>
-                    </tr>
-                    <tr>
-                        <th>Region :</th>
-                        <td> Gauteng , Western Cape</td>
-                      </tr>
-                      <tr>
-                          <th>ODO :</th>
-                          <td> 7908950 Km </td>
-                        </tr>
-                        <tr>
-                            <th>Year :</th>
-                            <td> 2016 </td>
-                          </tr> 
-                          <tr>
-                              <th>Fuel :</th>
-                              <td> Polo Wacth</td>
-                         </tr>
-                         <tr>
-                            <th>Gear -box :</th>
-                            <td> Automative</td>
-                          </tr>
-                          <tr>
-                              <th>Avaliabity color :</th>
-                              <td> Black, Blue , orange</td>
-                            </tr>
-                            <tr>
-                                <th>Model :</th>
-                                <td> A3 </td>
-                              </tr>
-                  </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-                
-
-                 
-
-
-
-
-                
-           
-
-
-
-
-
+    </div>
+    </div>
+<!--  External showsslide JavaScript  --> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  
+  </body>
+      
+<!--=-----===== end of the code------=====-->
 </body>
 
 </html>
-
-
-
-
 

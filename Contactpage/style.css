@@ -65,12 +65,6 @@ body{
     color: dodgerblue;
     transform: scale(1.1);
 }
-/*-- contact image page css code--*/
-.contact img{
-    width: 1887px;
-    height: 529px;
-    margin: 260px 0px 0px -946px;
-}
 
 /*-- footer of the page css code--*/
 #footer{
@@ -81,8 +75,12 @@ body{
     background-color: #111627;
     position: absolute;
     height: 100px;
-    margin: 1178px 0px 0px -232px ;
+    margin: -100px 0px 0px -8px ;
     clear: both;
+}
+.followus img{
+    width: 205px; 
+    height: 54px;
 }
 .copy{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -120,14 +118,14 @@ body{
 }
 .map iframe {
     border:0; 
-    margin:0px 0px -1403px -190px; 
+    margin:0px 0px  -1168px -190px; 
     border-radius: 14px;
 }
 
 /*-- Contact Form of the page css code--*/
 .ContactForm{
     width: 76%;
-    margin: 586px auto;
+    margin: 353px auto;
     background-color: white;
     border: 1px solid white;
     border-radius: 15px;
